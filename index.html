@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BitStarz</title>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"> </head>
+<body>
+<main>
+    <div class="flex-group">
+        <div class="flex-item flex-no-grow">
+            <div class="left-side-bar left-side-bar-open collapse-active" id="collapse-nav">
+                <div class="flex-group flex-justify-content-space-between">
+                    <div class="flex-item flex-no-grow ">
+                        <h2 class="text-white text-uppercase text-20 margin-left-20 margin-top-20 hide-collapse-item">My Account</h2> </div>
+                    <div class="flex-item flex-no-grow margin-top-20" id="collapse-click">
+                        <div class="side-bar-collapse hide-collapse-item"><img src="./img/leftArrow.png" alt=""></div>
+                        <div class="side-bar-collapse show-collapse-item"><img src="./img/rightArrow.png" class="right-collapse-icon" alt=""></div>
+                    </div>
+                </div>
+                <div class="dark-back-ground margin-top-20 hide-collapse-item">
+                    <div>
+                        <div class="flex-group padding-17 padding-bottom-none">
+                            <div class="flex-item flex-no-grow"> <img class="start-icon" src="./img/star8.png" alt="" /> </div>
+                            <div class="flex-item">
+                                <div class="flex-group flex-justify-content-space-between">
+                                    <div class="flex-item flex-no-grow flex-item-center"> <span class="text-light-gray margin-left-10">johndoe2000</span> </div>
+                                    <div class="flex-item flex-no-grow text-light-gray" id="targetUserInfoClick"> <img class="arrow-down-img" src="./img/arrowDown.png" alt="" /> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="padding-17">
+                            <div class="progress-bar">
+                                <div class="progress-level progress-blue" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div id="collapse-user-info" class="collapse-user-info">
+                            <div class="hr-line"></div>
+                            <div class="padding-17">
+                                <h3 class="text-14 text-white text-24">1,846</h3>
+                                <div class="padding-top-10">
+                                    <div class="progress-bar">
+                                        <div class="progress-level progress-dark" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="flex-group flex-justify-content-space-between margin-top-5">
+                                    <div class="flex-item flex-no-grow text-white text-14">1,403</div>
+                                    <div class="flex-item flex-no-grow text-white text-14">546</div>
+                                </div>
+                                <div class="flex-group flex-justify-content-space-between">
+                                    <div class="flex-item flex-no-grow text-white text-12 text-light-gray">Movies seen</div>
+                                    <div class="flex-item flex-no-grow text-white text-12 text-light-gray">Movies until next level</div>
+                                </div>
+                                <div class="flex-group flex-large-gutter margin-top-20">
+                                    <div class="flex-item">
+                                        <button class="button button-small">BUTTON</button>
+                                    </div>
+                                    <div class="flex-item">
+                                        <button class="button button-green button-small">BUTTON</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-collapse-item"> <img src="./img/star8.png" class="collapse-star-8" alt="" />
+                    <div class="collapse-movie-counts-container">
+                        <div class="tooltip"> <img src="./img/movieCountsIcon.png" class="collapse-movie-counts-icon" alt=""> <span class="tooltiptext">1,846</span> </div>
+                    </div>
+                </div>
+                <div class="show-collapse-item">
+                    <button class="button button-green button-small collapse-button" id="open-model-2"><img src="./img/plusIcon.png" alt=""></button>
+                </div>
+                <br />
+                <nav>
+                    <a href="#">
+                        <div class="flex-group">
+                            <div class="flex-item flex-no-grow"><img src="./img/menu3.png" alt=""></div>
+                            <div class="flex-item flex-no-grow flex-item-center hide-collapse-item"> <span class="margin-left-20">Menu Item</span> </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex-group">
+                            <div class="flex-item flex-no-grow"><img src="./img/menu2.png" alt=""></div>
+                            <div class="flex-item flex-no-grow flex-item-center hide-collapse-item"> <span class="margin-left-20">Menu Item</span> </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex-group">
+                            <div class="flex-item flex-no-grow"><img src="./img/menu3.png" alt=""></div>
+                            <div class="flex-item flex-no-grow flex-item-center hide-collapse-item"> <span class="margin-left-20">Menu Item</span> </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex-group">
+                            <div class="flex-item flex-no-grow"><img src="./img/menu4.png" alt=""></div>
+                            <div class="flex-item flex-no-grow flex-item-center hide-collapse-item"> <span class="margin-left-20">Menu Item</span> </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="flex-group">
+                            <div class="flex-item flex-no-grow"><img src="./img/menu5.png" alt=""></div>
+                            <div class="flex-item flex-no-grow flex-item-center hide-collapse-item"> <span class="margin-left-20">Menu Item</span> </div>
+                        </div>
+                    </a>
+                </nav>
+            </div>
+        </div>
+        <div class="flex-item">
+            <!-- start main content container -->
+            <div class="main-content-container">
+                <div>
+                    <h1 class="text-24">Dashboard</h1> </div>
+                <div class="content-container">
+                    <div class="movies-counts-content box-load-animation box-animation-load-1 padding-17 position-relative my_corner">
+                        <div class="tr"></div>
+                        <div class="tl"></div>
+                        <div class="br"></div>
+                        <div class="bl"></div>
+                        <div class="flex-group flex-justify-content-space-between">
+                            <div class="flex-item flex-no-grow">
+                                <p class="movies-watched-text text-gray">MOVIES WATCHED</p>
+                            </div>
+                            <div class="flex-item flex-no-grow">
+                                <p class="add-new-movie text-dark-gray" id="open-model">Add New Movie</p>
+                            </div>
+                        </div>
+                        <h2 class="dashboard-movies-count text-center both-center">1,846</h2>
+                        <div class="position-absolute bottom-17 width-less-padding-17">
+                            <button class="button button-full button-green font-weight button-nudge">BIG GREEN BUTTON</button>
+                        </div>
+                    </div>
+                    <div class="righside-container">
+                        <div class="my-coupons box-load-animation box-animation-load-2 my_corner">
+                            <div class="tr"></div>
+                            <div class="tl"></div>
+                            <div class="br"></div>
+                            <div class="bl"></div>
+                            <p class="text-13 text-gray padding-17">MY COUPONS</p>
+                            <div class="my-coupons-cards-container">
+                                <div class="movie-ticket-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow flex-item-center"> <img src="./img/movieTickeIcon.png" class="img-movie-ticket" alt=""> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <p class="text-14 margin-left-20">Get $5 Off on Purchase of 2 "Fast6" Movie Tickets With Code</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <button class="button button-green button-small">Button</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="movie-ticket-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow flex-item-center"> <img src="./img/movieTickeIcon.png" class="img-movie-ticket" alt=""> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <p class="text-14 margin-left-20">Prestige Movie Ticket </p>
+                                                    <p class="margin-left-20 text-gray text-12">Expires: 1d:5h:25m:55s</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <button class="button button-green button-small">Button</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="movie-ticket-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow flex-item-center"> <img src="./img/movieTickeIcon.png" class="img-movie-ticket" alt=""> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <p class="text-14 margin-left-20">10 Movie Tickets</p>
+                                                    <p class="margin-left-20 text-gray text-12">Expires: 1d:5h:25m:55s</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center">
+                                                    <button class="button button-green button-small">Button</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popular-movies box-load-animation box-animation-load-3 my_corner">
+                            <div class="tr"></div>
+                            <div class="tl"></div>
+                            <div class="br"></div>
+                            <div class="bl"></div>
+                            <p class="text-13 text-gray padding-17">POPULAR MOVIES</p>
+                            <div class="popular-movies-card-container">
+                                <div class="popular-movies-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow"><img class="movie-img" src="./img/movie2.png" alt="" /> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-item-center flex-no-grow margin-left-20">
+                                                    <p class="text-14">Dangerous Lies</p>
+                                                    <p class="text-gray text-12">2020</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center"> <img class="play-img" src="./img/playIcon.png" alt=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-movies-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow"><img class="movie-img" src="./img/movie1.png" alt="" /> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-item-center flex-no-grow margin-left-20">
+                                                    <p class="text-14">The Godfather</p>
+                                                    <p class="text-gray text-12">1972</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center"> <img class="play-img" src="./img/playIcon.png" alt=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-movies-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow"><img class="movie-img" src="./img/movie.png" alt="" /> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-item-center flex-no-grow margin-left-20">
+                                                    <p class="text-14">The Dark Knight</p>
+                                                    <p class="text-gray text-12">2008</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center"> <img class="play-img" src="./img/playIcon.png" alt=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-movies-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow"><img class="movie-img" src="./img/movie3.png" alt="" /> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-item-center flex-no-grow margin-left-20">
+                                                    <p class="text-14">Schindler's List</p>
+                                                    <p class="text-gray text-12">1993</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center"> <img class="play-img" src="./img/playIcon.png" alt=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="popular-movies-card">
+                                    <div class="flex-group">
+                                        <div class="flex-item flex-no-grow"><img class="movie-img" src="./img/movie3.png" alt="" /> </div>
+                                        <div class="flex-item">
+                                            <div class="flex-group flex-justify-content-space-between">
+                                                <div class="flex-item flex-item-center flex-no-grow margin-left-20">
+                                                    <p class="text-14">Schindler's List</p>
+                                                    <p class="text-gray text-12">1993</p>
+                                                </div>
+                                                <div class="flex-item flex-no-grow flex-item-center"> <img class="play-img" src="./img/playIcon.png" alt=""> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="random-card box-load-animation box-animation-load-4 flip-card position-relative">
+
+                            <div class="flip-card-inner my_corner">
+                                <div class="tr"></div>
+                                <div class="tl"></div>
+                                <div class="br"></div>
+                                <div class="bl"></div>
+                                <div class="flip-card-front padding-17">
+                                    <img class="random-card-smile" src="./img/smile.png" alt=""><br /><br />
+                                    <h3 class="text-center text-20">JUST A RANDOM CARD</h3><br />
+                                    <p class="text-14 text-gray text-center"> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                    <div class="position-absolute bottom-17 width-less-padding-17">
+                                        <button class="button button-full text-gray font-weight">CLICK TO FLIP THE CARD</button>
+                                    </div>
+                                </div>
+                                <div class="flip-card-back my_corner">
+                                    <div class="tr"></div>
+                                    <div class="tl"></div>
+                                    <div class="br"></div>
+                                    <div class="bl"></div>
+                                    <div class="padding-17">
+                                        <br /><br /><br /><br />
+                                        <h3 class="text-center text-20">JUST A RANDOM TEXT</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- start Add Movie model -->
+                <div class="model display-none" id="movie-model">
+                    <div class="model-card">
+                        <div class="model-card-title text-18 padding-20 text-white">
+                            <h4>ADD NEW MOVIE</h4> </div>
+                        <div class="padding-20">
+                            <input type="text" placeholder="Movie Name" class="model-input text-14" aria-label="" />
+                            <input type="text" placeholder="Movie Year" class="model-input text-14" aria-label="" />
+                            <div class="flex-group flex-medium-gutter">
+                                <div class="flex-item">
+                                    <button class="button button-small" id="close-model">CANCEL</button>
+                                </div>
+                                <div class="flex-item">
+                                    <button class="button button-small button-green">ADD MOVIE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Add Movie model -->
+            </div>
+            <!-- end main content container -->
+        </div>
+    </div>
+</main>
+<!-- app scripts start -->
+<script src="./app.js"></script>
+<!-- app scripts end -->
+</body>
+</html>
